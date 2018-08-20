@@ -1,3 +1,14 @@
+.vscode/
+
+# Include only example yaml files in config directory.
+config/*.yml
+!config/*.example.yml
+
+pydere/
+
+
+#### Git-Hub Generated .gitignore ####
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

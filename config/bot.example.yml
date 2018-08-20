@@ -1,0 +1,9 @@
+token: '< Discord Bot Token >'
+command_prefix: '.'
+description: A hentai bot for Tenshi Paradise.
+devs:
+  - 271084790952755201
+  - 204830788729044992
+
+cogs:
+  - 'ona.cogs.test'
