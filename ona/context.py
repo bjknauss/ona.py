@@ -1,4 +1,5 @@
 from discord.ext import commands
+from typing import Collection
 
 
 class Context(commands.Context):
@@ -10,3 +11,7 @@ class Context(commands.Context):
     @property
     def db(self):
         return self.bot.db
+
+    @property
+    def devs(self) -> Collection[int]:
+        return self.bot.devs
